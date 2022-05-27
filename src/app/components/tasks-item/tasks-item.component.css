@@ -14,3 +14,12 @@
     align-items: center;
     justify-content: space-between;
 }
+
+.task fa-icon{
+    color: red;
+}
+
+.task p{
+    color: green;
+    font-style: oblique;
+}
