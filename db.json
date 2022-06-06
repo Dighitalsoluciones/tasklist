@@ -23,6 +23,12 @@
       "text": "Leer los apuntes",
       "day": "Agosto 5 a las 21:00",
       "reminder": false
+    },
+    {
+      "text": "Generar mucho dinero",
+      "day": "Mañana",
+      "reminder": true,
+      "id": 5
     }
   ]
 }

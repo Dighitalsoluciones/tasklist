@@ -9,10 +9,9 @@ import { Task } from '../../Task'
 export class AddTaskComponent implements OnInit {
   @Output() onAddTask: EventEmitter<Task> = new EventEmitter();
 
-  text: string = "";
-  day: string = "";
-  reminder: boolean = false;
-
+  text:string = "";
+  day:string = "";
+  reminder:boolean =false;
   constructor() { }
 
   ngOnInit(): void {
@@ -23,12 +22,9 @@ export class AddTaskComponent implements OnInit {
       alert("Por favor agregar la tarea!");
       return
     }
-
-    const {text, day, reminder} = this
-    const newTask = {text, day, reminder}
-    
+    const {text,day,reminder} = this
+    const newTask = {text,day,reminder}
     this.onAddTask.emit(newTask);
-
   }
 
 }
