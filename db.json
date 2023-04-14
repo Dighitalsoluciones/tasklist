@@ -4,31 +4,19 @@
       "id": 1,
       "text": "Terminar primer modulo de Angular",
       "day": "Agosto 5 a las 12:00",
-      "reminder": true
-    },
-    {
-      "id": 2,
-      "text": "Ir a hacer las compras",
-      "day": "Agosto 5 a las 17:00",
-      "reminder": true
-    },
-    {
-      "id": 3,
-      "text": "Investigar sobre la programacion",
-      "day": "Agosto 5 a las 19:00",
-      "reminder": false
-    },
-    {
-      "id": 4,
-      "text": "Leer los apuntes",
-      "day": "Agosto 5 a las 21:00",
       "reminder": false
     },
     {
       "text": "Generar mucho dinero",
       "day": "Mañana",
-      "reminder": true,
+      "reminder": false,
       "id": 5
+    },
+    {
+      "text": "Terminar App Gimnasio",
+      "day": "13//04/2023 13 Hs",
+      "reminder": true,
+      "id": 6
     }
   ]
 }
